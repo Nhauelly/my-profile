@@ -1,0 +1,116 @@
+body {
+	background-color: rgba(26, 125, 125, 0.2) ;
+	color: rgb(30, 30, 30) ;
+	font-family: arial;
+	font-size: 16px;
+	background: rgba(26, 125, 125, 0.2);
+   padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+
+ 
+}
+
+h1,h5{
+	color: black;
+	font-family: Bonodi MT;
+	font-weight: bold;
+	font-size: 30px ;
+background: rgba(26, 125, 125, 0.2);
+   padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+
+}
+h2,h3,h4{ font-family: Bonodi MT;
+	font-weight: 550;
+	font-size: 25px ;
+	background: rgba(26, 125, 125, 0.2);
+   padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+	font-weight: 600;
+	transition: color 0.5s ease ;
+}
+a:hover {
+	color: blue ;
+}
+
+/* Custom design with class*/
+
+.container {
+	width: 700 px;
+	margin: 40 px;
+}
+
+@media (max-width : 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width : 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+.card-white {
+	background-color: white ;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align : center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: rgba(26, 125, 125, 0.5);
+	color : white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+.btn-blue : hover {
+	background-color:  rgba(26, 125, 125, 0.5)
+	color : blue ;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display : inline ;
+	padding : 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgba(26, 125, 125, 0.5) ;
+
+	}
+.list-inline i:hover {
+	font-size: 50px;
+	color: blue;
+	}
+
+/* Custom design with id */
+
+#introduction p {
+	margin-bottom: 40px;
+	}
